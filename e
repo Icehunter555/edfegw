@@ -1,1230 +1,257 @@
 PS C:\WINDOWS\system32> Select-String -Path "D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt" `
->> -Pattern "32123|HttpListener|Socket|Bind|localhost|127.0.0.1|AddressAlreadyInUse|WebException|SkylinesAgentBridge" `
->> -Context 8,15
+>> -Pattern "SkylinesAgentBridge" -Context 20,100
 
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:35:<RI> Input initialized.
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:36:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:37:desktop: 1920x1080 144Hz; virtual:
-1920x1080 at 0,0
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:38:<RI> Initialized touch support.
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:39:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:40:UnloadTime: 1.171800 ms
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:41:Game mode
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:42:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:43:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:44:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:45:Unloading 4 Unused Serialized files
-(Serialized files now loaded: 0)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:46:UnloadTime: 0.219600 ms
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:47:Loading Mono
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:48:Steamworks_RegisterMonoInterface()
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:49:Successfully Hooked RenderAPI_D3D11
-[Message]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:50:Machine ID:
-ff043621b1d6adbc13076b70f66945261028c919
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:51:Model: 81Q5 (LENOVO)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:52:OS: Windows 10  (10.0.0) 64bit
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:53:Language: English
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:54:CPU: Intel(R) Core(TM) i7-9750H CPU @
-2.60GHz (12 core(s))
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:55:System Memory: 16303
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:56:Gfx Device: NVIDIA GeForce GTX 1660 Ti
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:57:Gfx Version: Direct3D 11.0 [level
-11.1]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:58:Gfx Memory: 5966
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:59:Gfx Shader Model: 50
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:60:Game Version: 1.21.1-f9-steam-win
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:61:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:62:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:63:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:64:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:65:Loading Steamworks
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:66:DLC status: 64
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:67:dlc 'Cities: Skylines - Preorder
-Pack' id: '340160' available: 'false'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:68:dlc 'Cities: Skylines - Deluxe
-Edition Upgrade Pack' id: '346791' available: 'false'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:69:dlc 'Cities: Skylines - Soundtrack'
-id: '352510' available: 'false'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:70:dlc 'Cities: Skylines - The
-Architecture Artbook' id: '352511' available: 'false'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:71:dlc 'Cities: Skylines - The Monuments
-Booklet' id: '352512' available: 'false'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:72:dlc 'Cities: Skylines - Post Cards'
-id: '355600' available: 'false'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:73:dlc 'Cities: Skylines - Korean
-language' id: '365040' available: 'false'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:74:dlc 'Cities: Skylines - After Dark'
-id: '369150' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:75:dlc 'Cities: Skylines - Snowfall' id:
-'420610' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:76:dlc 'Cities: Skylines - Match Day'
-id: '456200' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:77:dlc 'Cities: Skylines - Content
-Creator Pack: Art Deco' id: '515190' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:78:dlc 'Cities: Skylines - Natural
-Disasters' id: '515191' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:126:dlc 'Cities: Skylines - Financial
-Districts' id: '2148901' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:127:dlc 'Cities: Skylines - JADIA Radio'
-id: '2148902' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:128:dlc 'Cities: Skylines - Content
-Creator Pack: Map Pack 2' id: '2148903' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:129:dlc 'Cities: Skylines - African
-Vibes' id: '2148904' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:130:dlc 'Cities: Skylines - Content
-Creator Pack: Sports Venues' id: '2224690' available: 'true'
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:131:Steam ID: 255710 [Message]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:132:API: Steam Type: Steam
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:133:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:134:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:135:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:136:Setting initial resolution to 1920
-1080 True  [Core]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:137:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:138:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:139:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:140:Setting vsync to 1  [Core]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:141:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:142:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:143:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:144:Raw Command Line: Cities.exe
---pdx-launcher-session-token 7e02a530-b6bf-4d7d-8edd-e6aed880d3f7 --paradox-account-userid
-917019e3-fd82-47dd-a1ce-6efb6910955f
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:145:Arguments: Cities.exe,
---pdx-launcher-session-token, 7e02a530-b6bf-4d7d-8edd-e6aed880d3f7, --paradox-account-userid,
-917019e3-fd82-47dd-a1ce-6efb6910955f
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:146:  [CommandLine - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:147:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:148:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:149:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:150:Platform assembly:
-D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\Managed\Mono.Security.dll (this message is harmless)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:151:Platform assembly:
-D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\Managed\System.Configuration.dll (this message is
-harmless)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:152:Platform assembly:
-D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\Managed\System.Xml.dll (this message is harmless)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:153:Adding package 'AP Asanu Beach'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\AP Asanu Beach.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:154:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:155:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:156:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:157:Adding package 'AP Hanami Bay'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\AP Hanami Bay.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:158:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:159:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:160:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:161:Adding package 'AP Noyou Port'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\AP Noyou Port.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:162:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:163:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:164:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:165:Adding package 'CCMP2 Boreal Map 1'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Boreal Map 1.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:166:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:167:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:168:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:169:Adding package 'CCMP2 Boreal Map 2'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Boreal Map 2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:170:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:171:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:172:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:173:Adding package 'CCMP2 Desert Map 1'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Desert Map 1.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:174:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:175:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:176:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:177:Adding package 'CCMP2 Desert Map 2'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Desert Map 2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:178:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:179:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:180:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:181:Adding package 'CCMP2 Euro Map 1'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Euro Map 1.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:182:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:183:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:184:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:185:Adding package 'CCMP2 Euro Map 2'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Euro Map 2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:186:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:187:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:188:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:189:Adding package 'CCMP2 Temperate Map
-1' [D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Temperate Map 1.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:190:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:191:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:192:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:193:Adding package 'CCMP2 Temperate Map
-2' [D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Temperate Map 2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:194:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:195:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:196:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:197:Adding package 'CCMP2 Tropical Map
-1' [D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Tropical Map 1.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:198:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:199:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:200:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:201:Adding package 'CCMP2 Tropical Map
-2' [D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCMP2 Tropical Map 2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:202:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:203:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:204:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:205:Adding package 'CCP Map 1'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCP Map 1.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:206:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:207:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:208:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:209:Adding package 'CCP Map 2'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCP Map 2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:210:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:211:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:212:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:213:Adding package 'CCP Map 3'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCP Map 3.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:214:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:215:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:216:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:217:Adding package 'CCP Map 4'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCP Map 4.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:218:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:219:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:220:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:221:Adding package 'CCP Map 5'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCP Map 5.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:222:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:223:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:224:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:225:Adding package 'CCP Map 6'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCP Map 6.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:226:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:227:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:228:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:229:Adding package 'CCP Map 7'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCP Map 7.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:230:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:231:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:232:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:233:Adding package 'CCP Map 8'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CCP Map 8.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:234:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:235:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:236:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:237:Adding package 'CL Marin Bay'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CL Marin Bay.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:238:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:239:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:240:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:241:Adding package 'CL Murky Coast'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CL Murky Coast.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:242:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:243:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:244:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:245:Adding package 'CL Northwood Hills'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CL Northwood Hills.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:246:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:247:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:248:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:249:Adding package 'CL Roslyn Peninsula'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CL Roslyn Peninsula.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:250:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:251:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:252:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:253:Adding package 'CL Wolf Creek'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CL Wolf Creek.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:254:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:255:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:256:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:257:Adding package 'Cliffside Bay'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Cliffside Bay.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:258:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:259:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:260:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:261:Adding package 'System'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\CO.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:262:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:263:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:264:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:265:Adding package 'DN Azure Gulf'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\DN Azure Gulf.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:266:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:267:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:268:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:269:Adding package 'DN Crater Falls'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\DN Crater Falls.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:270:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:271:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:272:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:273:Adding package 'DN Desert Oasis'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\DN Desert Oasis.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:274:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:275:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:276:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:277:Adding package 'DN Fisher Enclave'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\DN Fisher Enclave.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:278:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:279:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:280:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:281:Adding package 'DN Swamplands'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\DN Swamplands.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:282:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:283:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:284:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:285:Adding package 'Eden Valley2'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Eden Valley2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:286:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:287:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:288:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:289:Adding package 'Foggy Hills'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Foggy Hills.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:290:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:291:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:292:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:293:Adding package 'Garden Rivers2'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Garden Rivers2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:294:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:295:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:296:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:297:Adding package 'Grand River'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Grand River.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:298:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:299:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:300:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:301:Adding package 'IN Green Peaks'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\IN Green Peaks.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:302:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:303:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:304:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:305:Adding package 'IN Marble Canyon'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\IN Marble Canyon.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:306:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:307:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:308:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:309:Adding package 'IN Pearl Bay'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\IN Pearl Bay.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:310:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:311:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:312:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:313:Adding package 'IN Twin Fjords'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\IN Twin Fjords.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:314:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:315:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:316:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:317:Adding package 'IN Woodgarden'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\IN Woodgarden.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:318:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:319:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:320:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:321:Adding package 'Lavender Lake2'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Lavender Lake2.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:322:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:323:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:324:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:325:Adding package 'MM Coastal Flatland'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MM Coastal Flatland.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:326:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:327:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:328:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:329:Adding package 'MM Emerald Cliffs'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MM Emerald Cliffs.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:330:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:331:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:332:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:333:Adding package 'MM Maze Valley'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MM Maze Valley.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:334:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:335:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:336:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:337:Adding package 'MM Shifting Sands'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MM Shifting Sands.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:338:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:339:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:340:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:341:Adding package 'MM Weaving Waters'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MM Weaving Waters.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:342:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:343:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:344:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:345:Adding package 'MP23_Map01'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map01.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:346:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:347:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:348:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:349:Adding package 'MP23_Map02'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map02.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:350:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:351:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:352:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:353:Adding package 'MP23_Map03'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map03.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:354:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:355:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:356:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:357:Adding package 'MP23_Map04'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map04.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:358:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:359:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:360:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:361:Adding package 'MP23_Map05'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map05.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:362:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:363:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:364:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:365:Adding package 'MP23_Map06'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map06.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:366:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:367:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:368:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:369:Adding package 'MP23_Map07'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map07.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:370:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:371:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:372:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:373:Adding package 'MP23_Map08'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map08.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:374:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:375:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:376:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:377:Adding package 'MP23_Map09'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map09.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:378:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:379:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:380:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:381:Adding package 'MP23_Map10'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP23_Map10.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:382:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:383:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:384:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:385:Adding package 'MP27_Map01'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map01.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:386:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:387:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:388:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:389:Adding package 'MP27_Map02'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map02.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:390:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:391:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:392:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:393:Adding package 'MP27_Map03'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map03.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:394:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:395:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:396:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:397:Adding package 'MP27_Map04'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map04.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:398:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:399:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:400:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:401:Adding package 'MP27_Map05'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map05.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:402:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:403:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:404:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:405:Adding package 'MP27_Map06'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map06.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:406:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:407:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:408:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:409:Adding package 'MP27_Map07'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map07.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:410:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:411:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:412:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:413:Adding package 'MP27_Map08'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map08.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:414:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:415:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:416:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:417:Adding package 'MP27_Map09'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map09.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:418:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:419:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:420:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:421:Adding package 'MP27_Map10'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MP27_Map10.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:422:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:423:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:424:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:425:Adding package 'MT Ferry Empire'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MT Ferry Empire.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:426:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:427:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:428:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:429:Adding package 'MT Fix The Traffic'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MT Fix The Traffic.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:430:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:431:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:432:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:433:Adding package 'MT Trains'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\MT Trains.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:434:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:435:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:436:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:437:Adding package 'ND Alpine Villages'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\ND Alpine Villages.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:438:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:439:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:440:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:441:Adding package 'ND By The Dam'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\ND By The Dam.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:442:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:443:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:444:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:445:Adding package 'ND Floodland'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\ND Floodland.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:446:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:447:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:448:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:449:Adding package 'ND Island Hopping'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\ND Island Hopping.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:450:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:451:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:452:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:453:Adding package 'ND Tornado Country'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\ND Tornado Country.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:454:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:455:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:456:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:457:Adding package 'NorthEurope1FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\NorthEurope1FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:458:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:459:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:460:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:461:Adding package 'NorthEurope2FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\NorthEurope2FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:462:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:463:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:464:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:465:Adding package 'NorthEurope3FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\NorthEurope3FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:466:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:467:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:468:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:469:Adding package 'PB Cape Apple'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PB Cape Apple.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:470:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:471:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:472:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:473:Adding package 'PB Coastal Gem'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PB Coastal Gem.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:474:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:475:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:476:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:477:Adding package 'PB Gondola Islands'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PB Gondola Islands.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:478:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:479:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:480:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:481:Adding package 'PB Oracle Lake'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PB Oracle Lake.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:482:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:483:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:484:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:485:Adding package 'PB Splitz Tributary'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PB Splitz Tributary.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:486:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:487:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:488:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:489:Adding package 'PL Cavern Coast'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PL Cavern Coast.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:490:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:491:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:492:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:493:Adding package 'PL Honu Island'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PL Honu Island.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:494:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:495:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:496:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:497:Adding package 'PL Mountain Meadows'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PL Mountain Meadows.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:498:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:499:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:500:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:501:Adding package 'PL Pine Rivers'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PL Pine Rivers.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:502:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:503:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:504:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:505:Adding package 'PL Windfield'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PL Windfield.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:506:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:507:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:508:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:509:Adding package 'PU Gray Waters'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PU Gray Waters.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:510:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:511:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:512:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:513:Adding package 'PU Narrow Passage'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PU Narrow Passage.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:514:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:515:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:516:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:517:Adding package 'PU River Terrace'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PU River Terrace.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:518:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:519:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:520:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:521:Adding package 'PU Windblown Coast'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PU Windblown Coast.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:522:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:523:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:524:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:525:Adding package 'PU Wyvern Pass'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\PU Wyvern Pass.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:526:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:527:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:528:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:529:Adding package 'SouthEurope1FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\SouthEurope1FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:530:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:531:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:532:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:533:Adding package 'SouthEurope2FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\SouthEurope2FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:534:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:535:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:536:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:537:Adding package 'SouthEurope3FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\SouthEurope3FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:538:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:539:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:540:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:541:Adding package 'Tropical1FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Tropical1FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:542:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:543:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:544:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:545:Adding package 'Tropical2FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Tropical2FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:546:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:547:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:548:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:549:Adding package 'Tropical3FINAL'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Tropical3FINAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:550:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:551:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:552:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:553:Adding package 'Winter1Final'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Winter1Final.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:554:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:555:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:556:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:557:Adding package 'Winter2Final'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Winter2Final.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:558:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:559:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:560:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:561:Adding package 'Winter3Final'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Winter3Final.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:562:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:563:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:564:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:565:Adding package 'Winter4Final'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Winter4Final.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:566:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:567:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:568:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:569:Adding package 'Winter5Final'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Maps\Winter5Final.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:570:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:571:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:572:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:573:Adding package 'Alpine Villages'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Alpine Villages.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:574:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:575:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:576:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:577:Adding package 'By The Dam'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\By The Dam.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:578:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:579:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:580:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:581:Adding package 'City of Gardens'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\City of Gardens.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:582:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:583:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:584:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:585:Adding package 'Clean Up Crew'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Clean Up Crew.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:586:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:587:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:588:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:589:Adding package 'Ferry Empire'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Ferry Empire.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:590:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:591:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:592:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:593:Adding package 'Fix the Traffic'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Fix the Traffic.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:594:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:595:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:596:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:597:Adding package 'Floodland'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Floodland.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:598:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:599:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:600:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:601:Adding package 'Green Power'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Green Power.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:602:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:603:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:604:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:605:Adding package 'Island Hopping'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Island Hopping.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:606:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:607:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:608:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:609:Adding package 'MP23_Scenario01'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\MP23_Scenario01.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:610:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:611:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:612:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:613:Adding package 'MP23_Scenario02'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\MP23_Scenario02.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:614:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:615:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:616:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:617:Adding package 'MP23_Scenario03'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\MP23_Scenario03.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:618:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:619:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:620:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:621:Adding package 'Tornado Country'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Tornado Country.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:622:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:623:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:624:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:625:Adding package 'Trains'
-[D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Scenarios\Trains.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:626:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:627:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:628:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:629:Adding package '2097774001'
-[D:\SteamLibrary\steamapps\workshop\content\255710\2097774001\Gambrel barn 4.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:630:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:631:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:632:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:633:Adding package '2951451587'
-[D:\SteamLibrary\steamapps\workshop\content\255710\2951451587\新建资产.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:634:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:635:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:636:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:637:Adding package '2923746598'
-[D:\SteamLibrary\steamapps\workshop\content\255710\2923746598\The Illinois.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:638:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:639:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:640:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:641:Adding package '453154792'
-[D:\SteamLibrary\steamapps\workshop\content\255710\453154792\Gula_Toy_Kingdom_Tower.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:642:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:643:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:644:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:645:Adding package '2809479735'
-[D:\SteamLibrary\steamapps\workshop\content\255710\2809479735\Burj Khalifa.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:646:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:647:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:648:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:649:Adding package '2891599740'
-[D:\SteamLibrary\steamapps\workshop\content\255710\2891599740\NordCargoCom.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:650:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:651:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:652:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:653:Adding package '875668402'
-[D:\SteamLibrary\steamapps\workshop\content\255710\875668402\Costco.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:654:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:655:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:656:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:657:Adding package '875668402'
-[D:\SteamLibrary\steamapps\workshop\content\255710\875668402\CostcoGasStation.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:658:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:659:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:660:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:661:Adding package '875668402'
-[D:\SteamLibrary\steamapps\workshop\content\255710\875668402\CostcoLoadingDock.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:662:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:663:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:664:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:665:Adding package '875668402'
-[D:\SteamLibrary\steamapps\workshop\content\255710\875668402\CostcoLogo.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:666:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:667:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:668:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:669:Adding package '875668402'
-[D:\SteamLibrary\steamapps\workshop\content\255710\875668402\CostcoX.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:670:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:671:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:672:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:673:Adding package '2926604033'
-[D:\SteamLibrary\steamapps\workshop\content\255710\2926604033\Walmart Highway Sign.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:674:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:675:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:676:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:677:Adding package '2926604033'
-[D:\SteamLibrary\steamapps\workshop\content\255710\2926604033\Walmart Sign (Brick).crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:678:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:679:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:680:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:681:Adding package '2926604033'
-[D:\SteamLibrary\steamapps\workshop\content\255710\2926604033\Walmart Sign (Pole).crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:682:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:683:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:684:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:685:Adding package '3110039965'
-[D:\SteamLibrary\steamapps\workshop\content\255710\3110039965\Walmart Fuel Station.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:686:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:687:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:688:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:689:Adding package '3110039965'
-[D:\SteamLibrary\steamapps\workshop\content\255710\3110039965\Walmart Sign Prop.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:690:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:691:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:692:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:693:Adding package '3110039965'
-[D:\SteamLibrary\steamapps\workshop\content\255710\3110039965\Walmart.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:694:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:695:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:696:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:697:Adding package '3110039965'
-[D:\SteamLibrary\steamapps\workshop\content\255710\3110039965\WM1.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:698:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:699:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:700:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:701:Adding package 'Best'
-[C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\Best.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:702:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:703:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:704:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:705:Adding package 'BIGGOAL'
-[C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\BIGGOAL.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:706:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:707:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:708:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:709:Adding package 'BlackWoods'
-[C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\BlackWoods.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:710:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:711:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:712:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:713:Adding package 'Failed'
-[C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\Failed.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:714:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:715:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:716:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:717:Adding package 'GreenCity'
-[C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\GreenCity.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:718:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:719:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:720:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:721:Adding package 'IHATETHIS'
-[C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\IHATETHIS.crp]  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:722:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:723:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:724:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:725:Adding package
-'kfnjroeui9i0gfjoijpr' [C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\kfnjroeui9i0gfjoijpr.crp]
-[Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:726:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:727:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:728:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:729:Adding package 'LIFEEE'
 [C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\LIFEEE.crp]  [Packer - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:730:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:731:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:731:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:732:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:733:Adding package 'playme'
 [C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\playme.crp]  [Packer - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:734:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:735:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:735:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:736:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:737:Adding package
 'QuickSave20260913124929699' [C:\Users\gaole\AppData\Local\Colossal
 Order\Cities_Skylines\Saves\QuickSave20260913124929699.crp]  [Packer - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:738:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:739:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:739:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:740:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:741:Adding package 'WestField'
 [C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Saves\WestField.crp]  [Packer - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:742:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:743:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:743:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:744:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:745:Loading
 C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\userGameState.cgs  [Settings - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:746:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:747:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:747:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:748:
 > D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:749:No source files found:
 SkylinesAgentBridge  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:750:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:751:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:751:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:752:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:753:Non platform assembly:
-data-00000000563C30C0 (this message is harmless)
+data-000000005D352F50 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:754:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-00000000563C30C0.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D352F50.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:755:Non platform assembly:
-data-000000005656F010 (this message is harmless)
+data-0000000056612420 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:756:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005656F010.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-0000000056612420.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:757:Non platform assembly:
-data-00000000563C48D0 (this message is harmless)
+data-000000005D6B1B70 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:758:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-00000000563C48D0.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D6B1B70.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:759:Non platform assembly:
-data-000000005D0B1050 (this message is harmless)
+data-000000005D6B2D80 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:760:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D0B1050.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D6B2D80.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:761:Non platform assembly:
-data-000000005D0B2260 (this message is harmless)
+data-000000005D710030 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:762:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D0B2260.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D710030.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:763:Non platform assembly:
-data-000000005D439010 (this message is harmless)
+data-000000005D712E40 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:764:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D439010.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D712E40.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:765:Non platform assembly:
-data-000000005D452820 (this message is harmless)
+data-000000005D72C650 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:766:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D452820.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D72C650.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:767:Loading
 D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Mods\HardMode\HardMode.dll  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:768:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:769:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:769:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:770:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:771:Non platform assembly:
-data-000000005D4DD640 (this message is harmless)
+data-000000005D7BCC90 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:772:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D4DD640.dll
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:773:Assembly HardMode0, Version=0.0.0.0,
-Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D7BCC90.dll
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:773:Assembly HardMode0,
+Version=0.0.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:774:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:775:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:775:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:776:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:777:Loading
 D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Mods\UnlimitedMoney\UnlimitedMoney.dll  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:778:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:779:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:779:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:780:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:781:Non platform assembly:
-data-000000005D4DEE50 (this message is harmless)
+data-000000005D6B3F90 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:782:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D4DEE50.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D6B3F90.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:783:Assembly UnlimitedMoney2,
 Version=0.0.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:784:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:785:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:785:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:786:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:787:Loading
 D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Mods\UnlimitedOilAndOre\UnlimitedOilAndOre.dll  [Mods -
 Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:788:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:789:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:789:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:790:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:791:Non platform assembly:
-data-000000005D502CA0 (this message is harmless)
+data-000000005D7CDA30 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:792:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D502CA0.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D7CDA30.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:793:Assembly UnlimitedOilAndOre,
 Version=1.0.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:794:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:795:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:795:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:796:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:797:Loading
 D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Mods\UnlimitedSoil\UnlimitedSoil.dll  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:798:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:799:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:799:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:800:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:801:Non platform assembly:
-data-000000005D503EB0 (this message is harmless)
+data-000000005D7D2C50 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:802:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D503EB0.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D7D2C50.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:803:Assembly UnlimitedSoil,
 Version=1.0.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:804:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:805:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:805:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:806:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:807:Loading
 D:\SteamLibrary\steamapps\common\Cities_Skylines\Files\Mods\UnlockAll\UnlockAll.dll  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:808:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:809:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:809:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:810:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:811:Non platform assembly:
-data-000000005D5050C0 (this message is harmless)
+data-000000005D7D3E60 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:812:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D5050C0.dll
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:813:Assembly UnlockAll, Version=1.0.0.0,
-Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D7D3E60.dll
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:813:Assembly UnlockAll,
+Version=1.0.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:814:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:815:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:815:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:816:
 > D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:817:Loading
-C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Addons\Mods\SkylinesAgentBridge\SkylinesAgentBridge.dll
-[Mods - Internal]
+C:\Users\gaole\AppData\Local\Colossal
+Order\Cities_Skylines\Addons\Mods\SkylinesAgentBridge\SkylinesAgentBridge.dll  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:818:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:819:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:819:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:820:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:821:Non platform assembly:
-data-000000005D507ED0 (this message is harmless)
+data-000000005D7D6C70 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:822:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D507ED0.dll
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D7D6C70.dll
 > D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:823:Assembly SkylinesAgentBridge,
 Version=0.0.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:824:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:825:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:825:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:826:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:827:Loading
 D:\SteamLibrary\steamapps\workshop\content\255710\3801968694\AutomaticCity Builder2026.dll  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:828:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:829:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:829:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:830:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:831:Non platform assembly:
-data-000000005D5226F0 (this message is harmless)
+data-000000005D7F0480 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:832:Fallback handler could not load
-library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D5226F0.dll
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:833:Assembly AutomaticCity Builder2026,
-Version=1.59.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D7F0480.dll
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:833:Assembly AutomaticCity
+Builder2026, Version=1.59.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:834:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:835:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:835:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:836:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:837:Loading locale: en
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:838:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:839:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:839:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:840:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:841:Simulation started  [Core]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:842:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:843:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:843:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:844:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:845:PopsApi: Initializing file IO
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:846:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:847:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:847:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:848:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:849:PopsApi: Init complete
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:850:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:851:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:851:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:852:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:853:PopsApi: Pushing task: 1
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:854:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:855:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:855:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:856:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:857:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:858:Unloading 3 unused Assets to reduce
-memory usage. Loaded Objects now: 2492.
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:859:Total: 18.106701 ms
-(FindLiveObjects: 0.136900 ms CreateObjectMapping: 0.213100 ms MarkObjects: 17.745501 ms  DeleteObjects: 0.010300 ms)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:858:Unloading 3 unused Assets to
+reduce memory usage. Loaded Objects now: 2492.
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:859:Total: 22.092201 ms
+(FindLiveObjects: 0.151500 ms CreateObjectMapping: 0.107200 ms MarkObjects: 21.816900 ms  DeleteObjects: 0.015500
+ms)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:860:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:861:OnUserStatsReceived()
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:862:Received stats and achievements
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:863:GfxDevice: creating device client;
-threaded=1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:864:GfxDevice: creating device client;
-threaded=1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:865:Unloading 4 Unused Serialized files
-(Serialized files now loaded: 0)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:866:UnloadTime: 0.280900 ms
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:863:GfxDevice: creating device
+client; threaded=1
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:864:GfxDevice: creating device
+client; threaded=1
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:865:Unloading 4 Unused Serialized
+files (Serialized files now loaded: 0)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:866:UnloadTime: 0.333300 ms
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:867:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:868:Unloading 6 unused Assets to reduce
-memory usage. Loaded Objects now: 2533.
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:869:Total: 18.193901 ms
-(FindLiveObjects: 0.089700 ms CreateObjectMapping: 0.061400 ms MarkObjects: 18.029001 ms  DeleteObjects: 0.013200 ms)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:868:Unloading 6 unused Assets to
+reduce memory usage. Loaded Objects now: 2533.
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:869:Total: 31.475998 ms
+(FindLiveObjects: 0.125600 ms CreateObjectMapping: 0.167700 ms MarkObjects: 31.161699 ms  DeleteObjects: 0.020300
+ms)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:870:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:871:PopsApi: Popping task: 1
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:872:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:873:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:873:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:874:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:875:PopsApi: Pushing task: 2
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:876:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:877:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:877:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:878:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:879:PopsApi: Pushing task: 3
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:880:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:881:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:881:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:882:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:883:PopsApi: Popping task: 2
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:884:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:885:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:885:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:886:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:887:Title: privacy-policy-2018-11-02
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:888:PopsApi: Popping task: 3
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:889:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:890:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:890:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:891:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:892:Title: Terms-of-use-2019-04-05
@@ -1246,7 +273,7 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:908:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:909:PopsApi: Pushing task: 4
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:910:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:911:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:911:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:912:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:913:QueryUGCContent
@@ -1260,248 +287,3284 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:921:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:922:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:923:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:924:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:925:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:926:Unkown member detected of type
-SteamHelper+DLC_BitMask in CustomAssetMetaData. Attempting to resolve from 'dlcMask' to 'dlcMask'  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:927:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:928:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1932:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1933:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:929:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:930:Unkown member detected of type
-SteamHelper+DLC_BitMask in CustomAssetMetaData. Attempting to resolve from 'dlcMask' to 'dlcMask'  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:931:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:932:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1934:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1935:Assembly resolution failure. No
+assembly named 'RaceGroupPanel' was found.  [Serialization]
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1936:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1937:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:933:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:934:Unkown member detected of type
-SteamHelper+DLC_BitMask in CustomAssetMetaData. Attempting to resolve from 'dlcMask' to 'dlcMask'  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:935:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:936:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1938:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1939:Assembly resolution failure. No
+assembly named 'ServicePointGroupPanel' was found.  [Serialization]
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1940:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1941:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:937:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:938:Unkown member detected of type
-SteamHelper+DLC_BitMask in CustomAssetMetaData. Attempting to resolve from 'dlcMask' to 'dlcMask'  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:939:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:940:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1942:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1943:Assembly resolution failure. No
+assembly named 'HotelGroupPanel' was found.  [Serialization]
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1944:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1945:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:941:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:942:Unkown member detected of type
-SteamHelper+DLC_BitMask in CustomAssetMetaData. Attempting to resolve from 'dlcMask' to 'dlcMask'  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:943:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:944:(Filename:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1946:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1947:Assembly resolution failure. No
+assembly named 'RaceGroupPanel' was found.  [Serialization]
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1948:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1949:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:945:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:946:Unkown member detected of type
-SteamHelper+DLC_BitMask in CustomAssetMetaData. Attempting to resolve from 'dlcMask' to 'dlcMask'  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:947:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:948:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:949:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:950:Unkown member detected of type
-SteamHelper+DLC_BitMask in CustomAssetMetaData. Attempting to resolve from 'dlcMask' to 'dlcMask'  [Packer - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:951:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:952:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:953:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:954:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:955:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:956:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:957:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:958:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:959:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:960:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:961:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:962:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:963:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:964:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:965:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:966:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:967:PopsApi: [CDiskstorage] Error: Root
-path is empty
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:968:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:969:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:970:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:971:PopsApi: [CDiskstorage] Error
-reading failed achievement calls cache, file IO or root path not set
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:972:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:973:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:974:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:975:PopsApi: Popping task: 4
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:976:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:977:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:978:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:979:OnSteamUGCQueryCompleted
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:980:GfxDevice: creating device client;
-threaded=1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:981:GfxDevice: creating device client;
-threaded=1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:982:PopsApi: Pushing task: 5
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:983:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:984:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:985:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:986:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:987:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:988:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:989:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:990:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:991:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:992:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:993:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:994:RequestItemDetails
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:995:Loading 'previewfile_3801330852.png'
-for 3801330852
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:996:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:997:Loading 'previewfile_3801968694.jpg'
-for 3801968694
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:998:JPG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:999:Loading 'previewfile_3802011408.png'
-for 3802011408
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1001:Loading
-'previewfile_3805194278.png' for 3805194278
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1002:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1003:Loading
-'previewfile_3801583777.png' for 3801583777
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1004:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1005:Loading
-'previewfile_3802949323.png' for 3802949323
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1006:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1007:PopsApi: Popping task: 5
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1008:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1009:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1010:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1011:Loading
-'previewfile_3799821093.png' for 3799821093
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1012:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1013:Loading
-'previewfile_2568240561.png' for 2568240561
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1014:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1015:Loading
-'previewfile_3802455074.png' for 3802455074
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1016:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1017:Loading
-'previewfile_3799027022.png' for 3799027022
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1018:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1019:Loading
-'previewfile_3802563299.png' for 3802563299
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1020:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1021:Loading
-'previewfile_3804495414.png' for 3804495414
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1022:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1023:Loading
-'previewfile_3804358354.png' for 3804358354
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1024:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1037:Loading
-'previewfile_3800611526.png' for 3800611526
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1038:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1039:Loading
-'previewfile_3772267121.jpg' for 3772267121
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1040:JPG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1041:Loading
-'previewfile_2373349895.png' for 2373349895
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1042:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1043:Saving
-C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\userGameState.cgs  [Settings - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1044:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1045:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1046:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1047:Loading
-'previewfile_3737255031.png' for 3737255031
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1048:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1049:Loading
-'previewfile_2222066712.png' for 2222066712
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1050:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1051:Loading
-'previewfile_3805082386.png' for 3805082386
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1052:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1053:Loading
-'previewfile_3800997013.png' for 3800997013
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1054:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1055:Loading
-'previewfile_3801910615.png' for 3801910615
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1056:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1057:Loading 'previewfile_933414014.png'
-for 933414014
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1058:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1059:Loading
-'previewfile_3801007581.png' for 3801007581
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1060:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1097:Loading
-'previewfile_2222083827.png' for 2222083827
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1098:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1099:Loading
-'previewfile_3805081476.png' for 3805081476
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1100:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1101:Loading
-'previewfile_2905449358.png' for 2905449358
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1102:PNG
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1103:PopsApi: Pushing task: 6
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1104:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1105:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1106:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1107:PopsApi: Popping task: 6
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1108:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1109:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1110:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1111:Avatar image idx 6,
-76561198644294783
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1112:Paradox Account successfully
-authenticated!  [HTTP]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1113:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1114:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1115:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1116:Saving
-C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\gameSettings.cgs  [Settings - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1117:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1118:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1119:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1120:Waiting for simulation to quit...
-[Core]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1121:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1122:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1123:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1124:PopsApi: Shutdown complete
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1125:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1126:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1127:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1128:Setting up 6 worker threads for
-Enlighten.
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1129:  Thread -> id: 405c -> priority: 1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1130:  Thread -> id: 1f80 -> priority: 1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1131:  Thread -> id: 10dc -> priority: 1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1132:  Thread -> id: 60c -> priority: 1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1133:  Thread -> id: 2070 -> priority: 1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1134:  Thread -> id: 2224 -> priority: 1
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1135:Unloading Steamworks
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1136:Simulation terminated  [Core]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1137:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1138:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1139:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1140:GameSettings Monitor Exiting...
-[Settings - Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1141:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1142:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1143:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1144:GameSettings terminated  [Settings
-- Internal]
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1145:
-> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1146:(Filename:
-C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1147:
-
-
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1950:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1951:The class System.Func`1 could
+not be loaded, used in mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1952:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1953:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1954:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1955:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1956:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1957:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1958:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1959:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1960:Rethrow as ModException: The
+Mod C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Addons\Mods\SkylinesAgentBridge
+[SkylinesAgentBridge.dll] has caused an error
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1961:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1962:UnityEngine.DebugLogHandler:Inte
+rnal_LogException(Exception, Object)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1963:UnityEngine.DebugLogHandler:LogE
+xception(Exception, Object)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1964:UnityEngine.Logger:LogException(
+Exception, Object)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1965:UnityEngine.Debug:LogException(E
+xception)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1966:LoadingWrapper:OnLevelLoaded(Upd
+ateMode)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1967:<LoadLevelComplete>c__Iterator9:
+MoveNext()
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1968:LoadingManager:Update()
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1969:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1970:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1971:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1972:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1973:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1974:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1975:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1976:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1977:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1978:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1979:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1980:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1981:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1982:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1983:GfxDevice: creating device
+client; threaded=1
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1984:GfxDevice: creating device
+client; threaded=1
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1985:GfxDevice: creating device
+client; threaded=1
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1986:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1987:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1988:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1989:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1990:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1991:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1992:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1993:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1994:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1995:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1996:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1997:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1998:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1999:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2000:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2001:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2002:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2003:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2004:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2005:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2006:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2007:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2008:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2009:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2010:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2011:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2012:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2013:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2014:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2015:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2016:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2017:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2018:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2019:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2020:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2021:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2022:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2023:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2024:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2025:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2026:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2027:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2028:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2029:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2030:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2031:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2032:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2033:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2034:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2035:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2036:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2037:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2038:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2039:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2040:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2041:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2042:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2043:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2044:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2045:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2046:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2047:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2048:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2049:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2050:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2051:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2052:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2053:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2054:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2055:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2056:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2057:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2058:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2059:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2060:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2061:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2062:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2063:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2064:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2065:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2066:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2067:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2068:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2069:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2070:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2071:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2072:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2073:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2074:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2075:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2076:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2077:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2078:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2079:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2080:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2081:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2082:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2083:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2084:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2085:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2086:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2087:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2088:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2089:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2090:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2091:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2092:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2093:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2094:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2095:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2096:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2097:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2098:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2099:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2100:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2101:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2102:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2103:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2104:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2105:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2106:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2107:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2108:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2109:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2110:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2111:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2112:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2113:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2114:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2115:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2116:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2117:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2118:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2119:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2120:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2121:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2122:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2123:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2124:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2125:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2126:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2127:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2128:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2129:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2130:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2131:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2132:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2133:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2134:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2135:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2136:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2137:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2138:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2139:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2140:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2141:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2142:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2143:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2144:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2145:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2146:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2147:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2148:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2149:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2150:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2151:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2152:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2153:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2154:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2155:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2156:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2157:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2158:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2159:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2160:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2161:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2162:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2163:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2164:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2165:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2166:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2167:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2168:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2169:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2170:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2171:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2172:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2173:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2174:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2175:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2176:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2177:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2178:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2179:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2180:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2181:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2182:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2183:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2184:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2185:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2186:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2187:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2188:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2189:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2190:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2191:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2192:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2193:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2194:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2195:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2196:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2197:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2198:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2199:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2200:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2201:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2202:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2203:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2204:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2205:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2206:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2207:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2208:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2209:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2210:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2211:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2212:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2213:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2214:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2215:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2216:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2217:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2218:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2219:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2220:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2221:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2222:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2223:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2224:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2225:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2226:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2227:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2228:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2229:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2230:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2231:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2232:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2233:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2234:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2235:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2236:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2237:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2238:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2239:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2240:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2241:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2242:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2243:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2244:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2245:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2246:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2247:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2248:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2249:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2250:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2251:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2252:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2253:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2254:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2255:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2256:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2257:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2258:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2259:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2260:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2261:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2262:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2263:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2264:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2265:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2266:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2267:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2268:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2269:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2270:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2271:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2272:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2273:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2274:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2275:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2276:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2277:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2278:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2279:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2280:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2281:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2282:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2283:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2284:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2285:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2286:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2287:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2288:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2289:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2290:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2291:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2292:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2293:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2294:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2295:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2296:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2297:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2298:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2299:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2300:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2301:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2302:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2303:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2304:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2305:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2306:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2307:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2308:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2309:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2310:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2311:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2312:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2313:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2314:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2315:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2316:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2317:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2318:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2319:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2320:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2321:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2322:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2323:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2324:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2325:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2326:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2327:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2328:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2329:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2330:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2331:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2332:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2333:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2334:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2335:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2336:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2337:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2338:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2339:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2340:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2341:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2342:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2343:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2344:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2345:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2346:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2347:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2348:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2349:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2350:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2351:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2352:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2353:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2354:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2355:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2356:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2357:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2358:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2359:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2360:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2361:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2362:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2363:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2364:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2365:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2366:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2367:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2368:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2369:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2370:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2371:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2372:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2373:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2374:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2375:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2376:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2377:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2378:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2379:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2380:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2381:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2382:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2383:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2384:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2385:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2386:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2387:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2388:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2389:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2390:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2391:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2392:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2393:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2394:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2395:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2396:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2397:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2398:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2399:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2400:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2401:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2402:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2403:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2404:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2405:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2406:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2407:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2408:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2409:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2410:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2411:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2412:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2413:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2414:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2415:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2416:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2417:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2418:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2419:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2420:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2421:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2422:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2423:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2424:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2425:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2426:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2427:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2428:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2429:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2430:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2431:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2432:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2433:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2434:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2435:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2436:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2437:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2438:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2439:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2440:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2441:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2442:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2443:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2444:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2445:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2446:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2447:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2448:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2449:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2450:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2451:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2452:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2453:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2454:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2455:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2456:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2457:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2458:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2459:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2460:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2461:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2462:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2463:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2464:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2465:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2466:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2467:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2468:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2469:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2470:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2471:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2472:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2473:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2474:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2475:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2476:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2477:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2478:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2479:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2480:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2481:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2482:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2483:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2484:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2485:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2486:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2487:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2488:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2489:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2490:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2491:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2492:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2493:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2494:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2495:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2496:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2497:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2498:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2499:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2500:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2501:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2502:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2503:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2504:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2505:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2506:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2507:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2508:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2509:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2510:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2511:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2512:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2513:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2514:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2515:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2516:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2517:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2518:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2519:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2520:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2521:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2522:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2523:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2524:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2525:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2526:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2527:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2528:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2529:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2530:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2531:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2532:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2533:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2534:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2535:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2536:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2537:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2538:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2539:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2540:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2541:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2542:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2543:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2544:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2545:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2546:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2547:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2548:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2549:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2550:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2551:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2552:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2553:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2554:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2555:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2556:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2557:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2558:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2559:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2560:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2561:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2562:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2563:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2564:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2565:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2566:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2567:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2568:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2569:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2570:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2571:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2572:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2573:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2574:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2575:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2576:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2577:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2578:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2579:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2580:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2581:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2582:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2583:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2584:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2585:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2586:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2587:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2588:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2589:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2590:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2591:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2592:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2593:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2594:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2595:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2596:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2597:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2598:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2599:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2600:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2601:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2602:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2603:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2604:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2605:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2606:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2607:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2608:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2609:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2610:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2611:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2612:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2613:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2614:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2615:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2616:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2617:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2618:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2619:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2620:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2621:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2622:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2623:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2624:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2625:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2626:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2627:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2628:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2629:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2630:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2631:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2632:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2633:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2634:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2635:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2636:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2637:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2638:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2639:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2640:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2641:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2642:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2643:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2644:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2645:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2646:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2647:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2648:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2649:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2650:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2651:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2652:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2653:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2654:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2655:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2656:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2657:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2658:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2659:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2660:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2661:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2662:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2663:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2664:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2665:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2666:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2667:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2668:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2669:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2670:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2671:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2672:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2673:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2674:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2675:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2676:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2677:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2678:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2679:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2680:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2681:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2682:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2683:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2684:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2685:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2686:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2687:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2688:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2689:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2690:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2691:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2692:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2693:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2694:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2695:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2696:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2697:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2698:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2699:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2700:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2701:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2702:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2703:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2704:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2705:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2706:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2707:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2708:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2709:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2710:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2711:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2712:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2713:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2714:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2715:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2716:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2717:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2718:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2719:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2720:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2721:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2722:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2723:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2724:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2725:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2726:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2727:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2728:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2729:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2730:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2731:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2732:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2733:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2734:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2735:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2736:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2737:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2738:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2739:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2740:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2741:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2742:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2743:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2744:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2745:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2746:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2747:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2748:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2749:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2750:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2751:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2752:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2753:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2754:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2755:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2756:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2757:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2758:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2759:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2760:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2761:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2762:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2763:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2764:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2765:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2766:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2767:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2768:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2769:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2770:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2771:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2772:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2773:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2774:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2775:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2776:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2777:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2778:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2779:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2780:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2781:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2782:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2783:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2784:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2785:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2786:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2787:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2788:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2789:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2790:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2791:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2792:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2793:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2794:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2795:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2796:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2797:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2798:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2799:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2800:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2801:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2802:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2803:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2804:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2805:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2806:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2807:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2808:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2809:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2810:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2811:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2812:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2813:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2814:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2815:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2816:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2817:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2818:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2819:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2820:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2821:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2822:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2823:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2824:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2825:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2826:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2827:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2828:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2829:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2830:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2831:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2832:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2833:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2834:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2835:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2836:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2837:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2838:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2839:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2840:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2841:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2842:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2843:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2844:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2845:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2846:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2847:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2848:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2849:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2850:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2851:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2852:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2853:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2854:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2855:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2856:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2857:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2858:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2859:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2860:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2861:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2862:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2863:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2864:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2865:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2866:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2867:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2868:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2869:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2870:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2871:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2872:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2873:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2874:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2875:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2876:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2877:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2878:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2879:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2880:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2881:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2882:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2883:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2884:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2885:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2886:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2887:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2888:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2889:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2890:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2891:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2892:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2893:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2894:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2895:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2896:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2897:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2898:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2899:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2900:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2901:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2902:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2903:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2904:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2905:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2906:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2907:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2908:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2909:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2910:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2911:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2912:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2913:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2914:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2915:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2916:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2917:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2918:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2919:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2920:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2921:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2922:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2923:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2924:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2925:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2926:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2927:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2928:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2929:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2930:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2931:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2932:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2933:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2934:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2935:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2936:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2937:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2938:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2939:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2940:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2941:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2942:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2943:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2944:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2945:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2946:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2947:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2948:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2949:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2950:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2951:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2952:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2953:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2954:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2955:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2956:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2957:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2958:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2959:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2960:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2961:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2962:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2963:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2964:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2965:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2966:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2967:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2968:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2969:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2970:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2971:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2972:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2973:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2974:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2975:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2976:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2977:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2978:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2979:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2980:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2981:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2982:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2983:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2984:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2985:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2986:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2987:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2988:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2989:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2990:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2991:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2992:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2993:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2994:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2995:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2996:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2997:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2998:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:2999:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3000:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3001:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3002:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3003:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3004:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3005:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3006:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3007:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3008:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3009:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3010:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3011:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3012:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3013:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3014:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3015:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3016:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3017:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3018:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3019:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3020:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3021:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3022:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3023:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3024:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3025:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3026:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3027:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3028:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3029:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3030:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3031:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3032:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3033:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3034:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3035:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3036:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3037:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3038:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3039:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3040:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3041:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3042:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3043:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3044:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3045:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3046:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3047:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3048:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3049:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3050:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3051:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3052:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3053:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3054:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3055:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3056:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3057:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3058:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3059:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3060:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3061:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3062:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3063:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3064:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3065:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3066:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3067:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3068:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3069:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3070:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3071:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3072:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3073:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3074:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3075:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3076:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3077:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3078:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3079:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3080:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3081:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3082:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3083:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3084:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3085:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3086:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3087:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3088:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3089:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3090:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3091:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3092:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3093:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3094:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3095:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3096:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3097:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3098:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3099:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3100:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3101:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3102:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3103:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3104:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3105:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3106:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3107:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3108:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3109:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3110:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3111:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3112:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3113:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3114:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3115:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3116:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3117:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3118:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3119:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3120:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3121:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3122:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3123:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3124:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3125:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3126:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3127:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3128:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3129:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3130:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3131:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3132:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3133:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3134:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3135:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3136:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3137:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3138:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3139:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3140:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3141:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3142:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3143:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3144:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3145:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3146:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3147:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3148:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3149:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3150:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3151:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3152:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3153:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3154:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3155:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3156:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3157:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3158:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3159:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3160:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3161:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3162:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3163:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3164:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3165:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3166:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3167:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3168:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3169:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3170:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3171:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3172:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3173:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3174:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3175:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3176:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3177:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3178:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3179:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3180:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3181:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3182:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3183:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3184:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3185:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3186:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3187:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3188:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3189:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3190:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3191:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3192:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3193:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3194:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3195:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3196:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3197:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3198:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3199:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3200:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3201:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3202:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3203:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3204:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3205:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3206:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3207:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3208:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3209:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3210:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3211:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3212:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3213:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3214:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3215:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3216:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3217:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3218:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3219:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3220:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3221:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3222:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3223:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3224:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3225:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3226:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3227:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3228:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3229:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3230:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3231:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3232:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3233:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3234:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3235:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3236:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3237:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3238:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3239:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3240:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3241:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3242:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3243:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3244:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3245:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3246:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3247:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3248:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3249:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3250:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3251:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3252:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3253:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3254:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3255:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3256:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3257:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3258:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3259:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3260:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3261:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3262:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3263:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3264:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3265:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3266:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3267:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3268:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3269:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3270:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3271:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3272:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3273:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3274:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3275:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3276:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3277:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3278:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3279:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3280:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3281:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3282:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3283:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3284:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3285:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3286:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3287:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3288:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3289:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3290:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3291:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3292:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3293:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3294:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3295:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3296:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3297:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3298:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3299:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3300:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3301:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3302:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3303:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3304:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3305:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3306:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3307:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3308:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3309:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3310:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3311:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3312:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3313:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3314:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3315:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3316:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3317:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3318:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3319:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3320:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3321:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3322:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3323:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3324:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3325:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3326:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3327:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3328:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3329:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3330:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3331:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3332:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3333:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3334:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3335:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3336:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3337:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3338:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3339:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3340:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3341:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3342:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3343:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3344:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3345:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3346:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3347:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3348:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3349:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3350:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3351:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3352:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3353:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3354:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3355:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3356:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3357:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3358:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3359:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3360:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3361:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3362:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3363:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3364:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3365:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3366:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3367:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3368:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3369:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3370:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3371:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3372:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3373:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3374:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3375:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3376:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3377:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3378:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3379:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3380:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3381:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3382:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3383:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3384:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3385:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3386:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3387:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3388:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3389:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3390:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3391:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3392:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3393:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3394:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3395:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3396:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3397:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3398:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3399:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3400:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3401:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3402:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3403:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3404:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3405:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3406:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3407:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3408:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3409:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3410:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3411:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3412:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3413:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3414:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3415:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3416:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3417:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3418:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3419:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3420:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3421:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3422:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3423:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3424:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3425:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3426:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3427:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3428:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3429:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3430:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3431:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3432:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3433:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3434:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3435:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3436:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3437:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3438:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3439:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3440:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3441:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3442:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3443:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3444:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3445:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3446:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3447:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3448:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3449:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3450:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3451:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3452:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3453:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3454:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3455:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3456:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3457:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3458:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3459:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3460:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3461:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3462:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3463:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3464:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3465:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3466:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3467:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3468:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3469:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3470:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3471:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3472:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3473:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3474:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3475:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3476:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3477:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3478:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3479:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3480:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3481:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3482:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3483:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3484:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3485:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3486:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3487:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3488:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3489:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3490:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3491:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3492:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3493:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3494:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3495:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3496:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3497:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3498:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3499:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3500:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3501:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3502:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3503:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3504:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3505:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3506:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3507:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3508:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3509:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3510:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3511:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3512:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3513:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3514:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3515:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3516:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3517:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3518:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3519:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3520:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3521:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3522:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3523:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3524:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3525:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3526:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3527:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3528:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3529:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3530:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3531:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3532:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3533:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3534:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3535:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3536:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3537:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3538:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3539:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3540:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3541:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3542:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3543:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3544:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3545:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3546:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3547:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3548:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3549:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3550:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3551:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3552:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3553:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3554:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3555:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3556:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3557:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3558:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3559:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3560:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3561:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3562:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3563:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3564:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3565:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3566:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3567:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3568:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3569:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3570:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3571:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3572:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3573:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3574:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3575:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3576:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3577:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3578:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3579:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3580:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3581:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3582:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3583:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3584:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3585:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3586:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3587:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3588:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3589:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3590:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3591:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3592:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3593:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3594:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3595:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3596:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3597:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3598:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3599:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3600:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3601:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3602:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3603:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3604:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3605:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3606:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3607:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3608:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3609:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3610:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3611:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3612:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3613:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3614:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3615:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3616:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3617:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3618:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3619:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3620:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3621:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3622:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3623:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3624:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3625:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3626:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3627:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3628:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3629:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3630:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3631:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3632:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3633:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3634:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3635:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3636:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3637:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3638:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3639:  at
+SkylinesAgentBridge.AgentBridge..ctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3640:  at
+SkylinesAgentBridge.AgentBridge..cctor () [0x00000] in <filename unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3641:Rethrow as
+TypeInitializationException: An exception was thrown by the type initializer for SkylinesAgentBridge.AgentBridge
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3642:  at
+SkylinesAgentBridge.AgentBridgeLoading.OnLevelLoaded (LoadMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3643:  at
+LoadingWrapper.OnLevelLoaded (UpdateMode mode) [0x00000] in <filename unknown>:0
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3644:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3645:(Filename:  Line: -1)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3646:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3647:TypeLoadException: Could not
+load type 'SkylinesAgentBridge.CommandQueue+QueuedCommand[]' from assembly 'SkylinesAgentBridge, Version=0.0.0.0,
+Culture=neutral, PublicKeyToken=null'.
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3648:  at
+System.Collections.Generic.Queue`1[SkylinesAgentBridge.CommandQueue+QueuedCommand]..ctor () [0x00000] in <filename
+unknown>:0
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:3649:  at
+SkylinesAgentBridge.CommandQueue..ctor () [0x00000] in <filename unknown>:0
 PS C:\WINDOWS\system32>
+
+
+
+
+
+
