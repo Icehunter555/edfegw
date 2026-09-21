@@ -1,6 +1,11 @@
 PS C:\WINDOWS\system32> Select-String -Path "D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt" `
->> -Pattern "32123|HttpListener|Socket|Bind|localhost|127.0.0.1|AddressAlreadyInUse|WebException" -Context 5,10
+>> -Pattern "32123|HttpListener|Socket|Bind|localhost|127.0.0.1|AddressAlreadyInUse|WebException|SkylinesAgentBridge" `
+>> -Context 8,15
 
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:35:<RI> Input initialized.
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:36:
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:37:desktop: 1920x1080 144Hz; virtual:
+1920x1080 at 0,0
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:38:<RI> Initialized touch support.
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:39:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:40:UnloadTime: 1.171800 ms
@@ -21,6 +26,12 @@ ff043621b1d6adbc13076b70f66945261028c919
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:51:Model: 81Q5 (LENOVO)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:52:OS: Windows 10  (10.0.0) 64bit
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:53:Language: English
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:54:CPU: Intel(R) Core(TM) i7-9750H CPU @
+2.60GHz (12 core(s))
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:55:System Memory: 16303
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:56:Gfx Device: NVIDIA GeForce GTX 1660 Ti
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:57:Gfx Version: Direct3D 11.0 [level
+11.1]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:58:Gfx Memory: 5966
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:59:Gfx Shader Model: 50
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:60:Game Version: 1.21.1-f9-steam-win
@@ -45,6 +56,22 @@ Booklet' id: '352512' available: 'false'
 id: '355600' available: 'false'
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:73:dlc 'Cities: Skylines - Korean
 language' id: '365040' available: 'false'
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:74:dlc 'Cities: Skylines - After Dark'
+id: '369150' available: 'true'
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:75:dlc 'Cities: Skylines - Snowfall' id:
+'420610' available: 'true'
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:76:dlc 'Cities: Skylines - Match Day'
+id: '456200' available: 'true'
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:77:dlc 'Cities: Skylines - Content
+Creator Pack: Art Deco' id: '515190' available: 'true'
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:78:dlc 'Cities: Skylines - Natural
+Disasters' id: '515191' available: 'true'
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:126:dlc 'Cities: Skylines - Financial
+Districts' id: '2148901' available: 'true'
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:127:dlc 'Cities: Skylines - JADIA Radio'
+id: '2148902' available: 'true'
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:128:dlc 'Cities: Skylines - Content
+Creator Pack: Map Pack 2' id: '2148903' available: 'true'
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:129:dlc 'Cities: Skylines - African
 Vibes' id: '2148904' available: 'true'
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:130:dlc 'Cities: Skylines - Content
@@ -980,7 +1007,7 @@ C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\userGameState.cgs  [
 > D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:747:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:748:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:749:No source files found:
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:749:No source files found:
 SkylinesAgentBridge  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:750:
 > D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:751:(Filename:
@@ -1004,6 +1031,10 @@ data-000000005D0B1050 (this message is harmless)
 library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D0B1050.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:761:Non platform assembly:
 data-000000005D0B2260 (this message is harmless)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:762:Fallback handler could not load
+library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D0B2260.dll
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:763:Non platform assembly:
+data-000000005D439010 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:764:Fallback handler could not load
 library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D439010.dll
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:765:Non platform assembly:
@@ -1091,7 +1122,7 @@ Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
 > D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:815:(Filename:
 C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:816:
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:817:Loading
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:817:Loading
 C:\Users\gaole\AppData\Local\Colossal Order\Cities_Skylines\Addons\Mods\SkylinesAgentBridge\SkylinesAgentBridge.dll
 [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:818:
@@ -1102,7 +1133,7 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
 data-000000005D507ED0 (this message is harmless)
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:822:Fallback handler could not load
 library D:/SteamLibrary/steamapps/common/Cities_Skylines/Cities_Data/Mono/data-000000005D507ED0.dll
-  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:823:Assembly SkylinesAgentBridge,
+> D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:823:Assembly SkylinesAgentBridge,
 Version=0.0.0.0, Culture=neutral, PublicKeyToken=null loaded.  [Mods - Internal]
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:824:
 > D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:825:(Filename:
@@ -1163,6 +1194,8 @@ threaded=1
 threaded=1
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:865:Unloading 4 Unused Serialized files
 (Serialized files now loaded: 0)
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:866:UnloadTime: 0.280900 ms
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:867:
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:868:Unloading 6 unused Assets to reduce
 memory usage. Loaded Objects now: 2533.
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:869:Total: 18.193901 ms
@@ -1203,6 +1236,11 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:898:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:899:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:900:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:901:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:902:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:903:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:904:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:905:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:906:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:907:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:908:PNG
@@ -1220,6 +1258,7 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:919:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:920:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:921:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:922:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:923:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:924:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:925:PNG
@@ -1274,6 +1313,7 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:960:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:961:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:962:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:963:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:964:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:965:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:966:RequestItemDetails
@@ -1313,6 +1353,19 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:992:RequestItemDetails
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:993:RequestItemDetails
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:994:RequestItemDetails
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:995:Loading 'previewfile_3801330852.png'
+for 3801330852
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:996:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:997:Loading 'previewfile_3801968694.jpg'
+for 3801968694
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:998:JPG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:999:Loading 'previewfile_3802011408.png'
+for 3802011408
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1001:Loading
+'previewfile_3805194278.png' for 3805194278
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1002:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1003:Loading
+'previewfile_3801583777.png' for 3801583777
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1004:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1005:Loading
 'previewfile_3802949323.png' for 3802949323
@@ -1336,6 +1389,18 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1018:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1019:Loading
 'previewfile_3802563299.png' for 3802563299
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1020:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1021:Loading
+'previewfile_3804495414.png' for 3804495414
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1022:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1023:Loading
+'previewfile_3804358354.png' for 3804358354
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1024:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1037:Loading
+'previewfile_3800611526.png' for 3800611526
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1038:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1039:Loading
+'previewfile_3772267121.jpg' for 3772267121
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1040:JPG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1041:Loading
 'previewfile_2373349895.png' for 2373349895
@@ -1360,6 +1425,18 @@ C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.c
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1054:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1055:Loading
 'previewfile_3801910615.png' for 3801910615
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1056:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1057:Loading 'previewfile_933414014.png'
+for 933414014
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1058:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1059:Loading
+'previewfile_3801007581.png' for 3801007581
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1060:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1097:Loading
+'previewfile_2222083827.png' for 2222083827
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1098:PNG
+  D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1099:Loading
+'previewfile_3805081476.png' for 3805081476
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1100:PNG
   D:\SteamLibrary\steamapps\common\Cities_Skylines\Cities_Data\output_log.txt:1101:Loading
 'previewfile_2905449358.png' for 2905449358
